@@ -4,6 +4,7 @@
   "description": "Jawaban dari tes intern DOT task 2",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
