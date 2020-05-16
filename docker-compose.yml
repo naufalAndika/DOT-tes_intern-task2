@@ -1,0 +1,11 @@
+version: '2'
+
+services: 
+    webapp:
+        # Build custom image from Dockerfile
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        # Open port 3000
+        ports: 
+            - 3000:3000
