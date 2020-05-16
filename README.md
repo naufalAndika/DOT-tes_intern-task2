@@ -8,16 +8,10 @@
 
 > Jawaban dari tes intern DOT task 2
 
-## Install
-
-```sh
-npm install
-```
-
 ## Usage
 
 ```sh
-npm run start
+docker-compose up
 ```
 
 ## Author
