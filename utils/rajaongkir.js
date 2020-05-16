@@ -16,6 +16,19 @@ const getProvinces = async () => {
     }
 }
 
+const getCities = async () => {
+    try {
+        const response = await axios.get(process.env.RAJAONGKIR_URL + '/city', {
+            headers
+        })
+
+        return response.data.rajaongkir.results
+    } catch (err) {
+        console.log(err)
+    }
+}
+
 module.exports = {
-    getProvinces
+    getProvinces,
+    getCities
 }
