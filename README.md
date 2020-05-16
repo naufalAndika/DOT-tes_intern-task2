@@ -1,17 +1,27 @@
-<h1 align="center">Welcome to dot-tes-intern-task2 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
-</p>
+## Tes DOT intern Task 2
 
-> Jawaban dari tes intern DOT task 2
+API untuk mencari detail kota / provinsi dari [API RajaOngkir](https://rajaongkir.com/dokumentasi/starter). Dibuat dengan [Node.js](https://nodejs.org) dan di test menggunakan [Jest](https://jestjs.io/docs/en/getting-started)
+
+## Installation
+```sh
+npm install
+```
 
 ## Usage
 
 ```sh
+npm run start
+```
+Atau menggunakan docker compose
+
+
+```sh
 docker-compose up
+```
+
+## Testing
+```sh
+npm run test
 ```
 
 ## Author
@@ -19,10 +29,3 @@ docker-compose up
 👤 **Naufal Andika**
 
 * Github: [@naufalAndika](https://github.com/naufalAndika)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
