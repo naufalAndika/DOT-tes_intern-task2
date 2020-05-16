@@ -18,6 +18,7 @@
     "dev": "env-cmd -f config/dev.env nodemon src/index.js",
     "test": "env-cmd -f config/dev.env jest"
   },
+  "jest": { "testEnvironment": "node" },
   "author": "",
   "license": "ISC"
 }
