@@ -13,3 +13,6 @@ COPY . .
 
 # Run app using "npm run start"
 CMD ["npm", "run", "start"]
+
+# Env variable for port
+ENV PORT=3000
